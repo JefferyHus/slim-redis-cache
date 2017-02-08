@@ -16,11 +16,11 @@
 	limitations under the License.
 */
 
-namespace Slim\Middleware;
+namespace SlimRedisCache;
 
 use \Predis\ClientInterface;
 
-class RedisCache extends \Slim\Middleware
+class Middleware extends \Slim\Middleware
 {
 	protected $client;
 	protected $settings;

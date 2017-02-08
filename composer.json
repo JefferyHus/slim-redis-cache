@@ -1,11 +1,15 @@
 {
-	"name": "abouvier/slim-redis-cache",
+	"name": "marcato15/slim-redis-cache",
 	"type": "library",
 	"description": "Redis cache middleware for Slim framework",
 	"keywords": ["slim", "middleware", "cache", "redis"],
-	"homepage": "https://github.com/abouvier/slim-redis-cache",
+	"homepage": "https://github.com/marcato15/slim-redis-cache",
 	"license": "Apache-2.0",
 	"authors": [
+		{
+			"name": "marcato15",
+			"email": "marcato15@gmail.com"
+		},
 		{
 			"name": "abouvier",
 			"email": "abouvier@student.42.fr"
@@ -18,7 +22,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Slim\\Middleware\\": "src/"
+			"SlimRedisCache\\": "src/"
 		}
 	},
 	"extra": {
