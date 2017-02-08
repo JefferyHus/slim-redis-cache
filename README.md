@@ -4,7 +4,7 @@ Redis cache middleware for Slim framework.
 
 ## Installation
 
-    composer require abouvier/slim-redis-cache
+    composer require marcato15/slim-redis-cache
 
 ## Usage
 
